@@ -1,0 +1,71 @@
+.latest-match-container {
+  background-color: #0f172a;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .latest-match-container {
+    flex-direction: row;
+  }
+}
+
+.latest-match-logo-contianer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .latest-match-logo-container {
+    width: 65%;
+    align-self: center;
+  }
+}
+.result-contianer {
+  color: #ffffff;
+  font-size: 10px;
+  font-family: 'Bree Serif';
+}
+
+@media (min-width: 993px) {
+  .result-contianer {
+    font-size: 20px;
+  }
+}
+
+.innings-container {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 12px;
+}
+
+@media (min-width: 768px){
+  .innings-container{
+      font-size: 10px;
+      width: 35%;
+    align-items: flex-end;
+  }
+}
+
+@media (min-width: 993px) {
+  .innings-container {
+    font-size: 15px;
+  }
+}
+
+.image-logo {
+  width: 60px;
+}
+
+@media (min-width: 768px) {
+  .image-logo {
+    width: 150px;
+  }
+}

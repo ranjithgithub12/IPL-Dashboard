@@ -1,0 +1,67 @@
+.list-of-recent-match-container {
+  list-style-type: none;
+  background-color: #0f172a;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  color: #ffffff;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .list-of-recent-match-container {
+    width: 45%;
+  }
+}
+.logo-image {
+  width: 50%;
+  height: 23vh;
+}
+
+@media (max-width: 768px) {
+  .logo-image {
+    width: 20%;
+    height: 15vh;
+  }
+}
+
+.won-color {
+  color: green;
+  font-size: 25px;
+  font-family: 'Bree Serif';
+}
+
+@media (max-width: 768px) {
+  .won-color {
+    font-size: 12px;
+  }
+}
+
+.lost-color {
+  color: red;
+  font-size: 25px;
+  font-family: 'Bree Serif';
+}
+@media (max-width: 768px) {
+  .lost-color {
+    font-size: 12px;
+  }
+}
+
+.heading {
+  text-align: center;
+  height: 10vh;
+  font-family: 'Bree serif';
+}
+
+@media (max-width: 768px) {
+  .heading {
+    text-align: center;
+    font-family: 'Bree serif';
+    font-size: 12px;
+  }
+}

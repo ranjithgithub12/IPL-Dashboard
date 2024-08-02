@@ -1,0 +1,52 @@
+.link-item{
+  text-decoration: none;
+  width: 45%;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  margin: 10px;
+  background-color: #ffffff33;
+  min-height: 150px;
+}
+
+.list-of-ipl-teams {
+  list-style-type: none;
+  display: flex;
+  
+}
+
+@media (max-width: 567px) {
+  .link-item {
+    padding: 5px;
+    margin: 5px;
+    min-height: 85px;
+  }
+}
+.team-logo-image {
+  width: 70px;
+}
+@media (max-width: 567px) {
+  .team-logo-image {
+    width: 20px;
+  }
+}
+.team-name {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+@media (min-width: 567px) {
+  .team-name {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 769px) {
+  .team-name {
+    font-size: 30px;
+    font-weight: 500;
+  }
+}
